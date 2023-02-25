@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Karla',"consolas",sans-serif;
+    background-color: rgb(120, 229, 229);
+    color: rgb(255, 255, 255);
+}
+
+main{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+h1{
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.row{
+    width: 1000px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#weather,h1{
+    color: black;
+}
+#search{
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    width: 400px;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+
+}
+#type{
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 10px;
+    outline: none;
+    box-shadow: 0px 0px 5px grey;
+}
+
+#image{
+    width: 150px;
+    height: 150px;
+}
+
+.tite{
+ display: flex;
+ flex-wrap: wrap;
+}
+
